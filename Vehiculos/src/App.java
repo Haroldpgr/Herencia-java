@@ -1,9 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import interlmed.Avion;
 import interlmed.Moto;
 import interlmed.Yate;
-
+import interlmed.Vehiculo;
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -41,7 +43,16 @@ public class App {
         System.out.println(yate2.toString());
         System.out.println("**************************************************************************************");
   
-        CreateMoto();
+        List<Vehiculo> ListaVehiculos = new  ArrayList<Vehiculo>();
+        //CreateMoto();
+        Vehiculo vehiculo1 = new Moto("Rojo", " BMW ", "200CC", 2);
+        Vehiculo vehiculo2 = new Yate("Blanco", "Benetti", "380 galones ", 2);
+       ListaVehiculos.add(vehiculo1);
+       ListaVehiculos .add(vehiculo2);
+       for (Vehiculo objeto : ListaVehiculos ) {
+        System.out.println(objeto.toString());
+        
+       }
     }
     
 
