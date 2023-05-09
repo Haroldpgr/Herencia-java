@@ -1,4 +1,4 @@
-package interlmed;
+package interlemd;
 
 public class Vehiculo {
     private String color;

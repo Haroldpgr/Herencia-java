@@ -1,4 +1,4 @@
-package interlmed;
+package interlemd;
 
 public class Terrestre extends Vehiculo {
     public Terrestre() {

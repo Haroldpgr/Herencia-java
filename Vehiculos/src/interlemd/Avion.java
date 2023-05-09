@@ -1,4 +1,4 @@
-package interlmed;
+package interlemd;
 
 public class Avion extends Aereo {
 

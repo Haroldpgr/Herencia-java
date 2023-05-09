@@ -2,10 +2,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import interlmed.Avion;
-import interlmed.Moto;
-import interlmed.Yate;
-import interlmed.Vehiculo;
+import interlemd.Avion;
+import interlemd.Moto;
+import interlemd.Yate;
+import interlemd.Vehiculo;
 public class App {
     public static void main(String[] args) throws Exception {
 

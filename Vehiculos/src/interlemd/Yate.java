@@ -1,4 +1,4 @@
-package interlmed;
+package interlemd;
 
 public class Yate extends Acuatico {
     public Yate() {
